@@ -3,8 +3,8 @@
 
 # if time == 'Corinthians':
 #     print("Você é um timão")
-# elif time == "Bahia":
-#     print("Você é do Esquadrão")
+# elif time == "Vitoria":
+#     print("Você é Leão da barra")
 # else:
 #     print("Você não é um timão")
 
