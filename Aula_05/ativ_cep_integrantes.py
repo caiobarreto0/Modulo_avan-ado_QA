@@ -24,4 +24,4 @@ with open(nome_arquivo, "w") as arquivo:   # with open(nome_arquivo, "w") as arq
         cidade = dados.get("localidade", "Cidade não encontrada")  # Obtém o valor associado à chave "localidade" no dicionário dados. Se a chave não existir, retorna "Cidade não encontrada" como valor padrão.
         arquivo.write(f"Nome: {nome}, Cidade: {cidade}\n")  # Escreve uma linha no arquivo com o nome e a cidade obtida, formatada como uma string
         print(f"Nome:{nome}, Cidade: {cidade}")  # Exibe no console o nome e a cidade para cada iteração. Isso ajuda a verificar se o processo está funcionando corretamente durante a execução.
-print(f"Dados salvos em {nome_arquivo}")  # Após a conclusão do loop e fechamento do arquivo, imprime no console uma mensagem indicando que os dados foram salvos no arquivo especificado.
+print(f"Dados salvos em {nome_arquivo}") 
