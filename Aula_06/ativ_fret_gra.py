@@ -5,10 +5,10 @@ norte_nordeste = ["AC", "AP", "AM", "PA", "RO", "RR", "TO", "AL", "BA", "CE", "M
 def cep_estado (cep):
     try:
         response = requests.get(f"https://viacep.com.br/ws/{cep}/json/")
-        response.raise_for_status() # Garante que a resposta não contenha erros de HTTP
-        dados = response.json() # converte a resposta JSON em um dicionário python
+        response.raise_for_status() 
+        dados = response.json() 
         return dados.get("uf")
-    except (requests.RequestException,ValueError): # Se houver um erro na requisição ou na conversão do JSON, retorna None
+    except (requests.RequestException,ValueError): 
         return None
     
 
