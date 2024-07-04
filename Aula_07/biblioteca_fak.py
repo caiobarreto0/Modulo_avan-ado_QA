@@ -3,6 +3,7 @@ import random
 
 fake = Faker('pt_br')
 
+
 nome = fake.name()
 cidade = fake.city()
 idade = random.randint(18,80)
