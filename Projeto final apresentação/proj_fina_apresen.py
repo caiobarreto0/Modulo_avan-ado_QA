@@ -1,7 +1,7 @@
 import requests
 from faker import Faker
 import json
-import os
+
 
 BASEURL = "https://desafiopython.jogajuntoinstituto.org"
 USERS = "users"
